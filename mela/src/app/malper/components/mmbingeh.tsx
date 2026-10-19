@@ -24,7 +24,7 @@ import React from "react";
 const Bingeh = () => (
   <footer className="bg-white text-[#18181b] border-t border-zinc-200 mt-16 font-sans">
     <div className="max-w-7xl mx-auto px-4 py-12">
-      {/* Ajans Footer Top */}
+      {/* Yazar Footer Top */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center pb-8 mb-8 border-b border-zinc-200 gap-4">
         <div className="flex items-center gap-2">
           <span className="text-3xl font-black tracking-tight">MEHMET <span className="text-[#ff4d00]">KARAKUŞ</span></span>
@@ -83,7 +83,7 @@ const Bingeh = () => (
             Bizi Takip Edin
           </h5>
           <p className="mb-4 text-xs leading-relaxed text-zinc-500">
-            Markamızı sosyal medyada takip edin.
+Yazıları ve duyuruları sosyal medyada takip edin.
           </p>
           <div className="flex gap-2 mb-6">
             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="flex size-8 items-center justify-center rounded-full bg-zinc-100 text-[#18181b] transition-colors hover:bg-[#ff4d00] hover:text-white">

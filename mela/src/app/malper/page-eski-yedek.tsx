@@ -10,44 +10,44 @@ import Link from 'next/link'
 
 const CASES = [
   {
-    brand: 'Vestel', title: 'Ev her şeyin merkezinde', tag: 'Marka Kampanyası',
-    img: 'https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=900&q=80',
+    brand: 'Sessizliğin Alfabesi', title: 'Sustuğumuz her an bir cümledir', tag: 'Deneme',
+    img: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=900&q=80',
   },
   {
-    brand: 'Arçelik', title: 'Geleceği birlikte inşa etmek', tag: 'Strateji & Tasarım',
-    img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900&q=80',
+    brand: 'Sokağın Hafızası', title: 'Bir şehrin bıraktığı izler', tag: 'Roman',
+    img: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=900&q=80',
   },
   {
-    brand: 'Pegasus', title: 'Uçuşa dair her an yaratıcı', tag: 'Dijital & Sosyal',
-    img: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&q=80',
+    brand: 'Kuşlar ve Kırık Saat', title: 'Zamanın kayboluşu', tag: 'Öykü',
+    img: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=900&q=80',
   },
   {
-    brand: 'Ülker', title: 'Tatlı bir hikaye anlatımı', tag: 'İçerik Prodüksiyon',
-    img: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=900&q=80',
+    brand: 'Babanın Defteri', title: 'Hafıza, yokluk ve hatırlama', tag: 'Mektup',
+    img: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=80',
   },
 ]
 
 const SERVICES = [
-  { n: '01', t: 'Marka Stratejisi', d: 'Araştırma, konumlandırma ve marka mimarisi ile markanızı geleceğe taşıyoruz.' },
-  { n: '02', t: 'Yaratıcı & Tasarım', d: 'Kampanya fikirleri, kimlik tasarımı ve her mecra için özgün içerik üretimi.' },
-  { n: '03', t: 'Dijital & Sosyal Medya', d: 'Veriyle hareket eden sosyal medya, performans pazarlaması ve CRM çözümleri.' },
-  { n: '04', t: 'Prodüksiyon', d: 'Film, fotoğraf ve Motion Design — düşünceden ekrana uçtan uca prodüksiyon.' },
-  { n: '05', t: 'Medya Planlama', d: 'Doğru mecra, doğru zaman, doğru kitle. Etki odaklı medya stratejileri.' },
-  { n: '06', t: 'Veri & Ölçümleme', d: 'Analitik, insight ve ROI raporlamasıyla her kampanyayı ölçülebilir kılıyoruz.' },
+  { n: '01', t: 'Roman', d: 'Uzun soluklu anlatılar; tek bir hayatın içinden bütün bir dünyayı görme denemesi.' },
+  { n: '02', t: 'Öykü', d: 'Kısa metnin imkânıyla, bir anın bütün ağırlığını taşıyan hikâyeler.' },
+  { n: '03', t: 'Deneme', d: 'Düşünmenin peşine düşen, gündelik olanın içinden geçen yazılar.' },
+  { n: '04', t: 'Mektup & Günlük', d: 'Yokluk, bekleyiş ve hafıza üzerine, birisine yazılmış samimi metinler.' },
+  { n: '05', t: 'Eleştiri', d: 'Kitapların arasında yürüyen, okuma ufkunu genişleten kritikler.' },
+  { n: '06', t: 'Atölye', d: 'Yazmaya yeni başlayanlarla metni kurmayı öğrenmenin atölyesi.' },
 ]
 
 const NEWS = [
-  { cat: 'Ödüller', date: 'Eylül 2026', title: 'Creativity Awards 2026’da 3 altın, 5 gümüş madalya', href: '#' },
-  { cat: 'Kampanya', date: 'Ağustos 2026', title: 'Yeni marka kampanyamız 40 milyon kişiye ulaştı', href: '#' },
-  { cat: 'Ajans', date: 'Temmuz 2026', title: 'Ajansımız Effectiveness Network’e katıldı', href: '#' },
-  { cat: 'Sektör', date: 'Haziran 2026', title: 'CEO’muz Cannes Lions jürisinde görev aldı', href: '#' },
+  { cat: 'Yeni Kitap', date: 'Eylül 2026', title: 'Yeni deneme kitabı “Eşiğin Öte Yanı” raflarda', href: '#' },
+  { cat: 'Söyleşi', date: 'Ağustos 2026', title: 'Hafıza ve yazmak üzerine söyleşi yayınlandı', href: '#' },
+  { cat: 'Ödül', date: 'Temmuz 2026', title: 'Hikâye Ödülleri’nde jüri seçkisinde', href: '#' },
+  { cat: 'Atölye', date: 'Haziran 2026', title: 'Güz dönemi yazarlık atölyesi kayıtları açıldı', href: '#' },
 ]
 
 const STATS = [
-  { n: '120+', l: 'Marka Ortağı' },
-  { n: '340', l: 'Ödül' },
-  { n: '18', l: 'Ülke' },
-  { n: '96%', l: 'Müşteri Devamı' },
+  { n: '12', l: 'Yayınlanmış Kitap' },
+  { n: '3', l: 'Ödül' },
+  { n: '24', l: 'Dilde Çeviri' },
+  { n: '18', l: 'Yıllık Yazı Emekçiliği' },
 ]
 
 export default function AgencyPage() {
@@ -66,7 +66,7 @@ export default function AgencyPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-zinc-950/20" />
         <div className="relative mx-auto w-full max-w-[1600px] px-4 py-24 sm:px-6 lg:px-8">
           <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">
-            Productive Agency — RED Yapım
+            Mehmet Karakuş — Yazar
           </p>
           <h1 className="max-w-5xl text-5xl font-black uppercase leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">
             Fikirleri
@@ -74,7 +74,7 @@ export default function AgencyPage() {
             dönüştürüyoruz
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-zinc-300">
-            Strateji, yaratıcılık ve teknolojiyi birleştirerek markaların dünya ile konuşma biçimini yeniden tasarlıyoruz.
+Roman, öykü ve denemelerle insanın ve şehrin hikâyesini kelimelere döküyorum.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
@@ -170,8 +170,8 @@ export default function AgencyPage() {
         <div className="mx-auto max-w-[1100px] text-center">
           <p className="mb-6 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Kültürümüz</p>
           <h2 className="text-3xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            “İyi fikirler, cesur markalar ve
-            <span className="text-[#ff4d00]"> korkusuz insanlar</span> arasında doğar.”
+            “Sözcükler, dikkatle bakılan bir hayatın ve
+            <span className="text-[#ff4d00]"> sabırlı bir masanın</span> arasında yazılır.”
           </h2>
           <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
             Farklı disiplinlerden, kültürlerden ve dillerden gelen ekiplerimiz; birbirinden öğrenerek,
@@ -187,16 +187,16 @@ export default function AgencyPage() {
         </div>
       </section>
 
-      {/* NEWS — AJANS HABERLERİ */}
+      {/* NEWS — DUYURULAR */}
       <section id="news" className="border-t border-zinc-200 bg-zinc-50 px-4 py-24 sm:px-6 dark:border-zinc-800 dark:bg-zinc-900 lg:px-8">
         <div className="mx-auto max-w-[1600px]">
           <div className="mb-14 flex flex-wrap items-end justify-between gap-6">
             <div>
               <p className="mb-3 text-xs font-black uppercase tracking-[0.3em] text-[#ff4d00]">Güncel</p>
-              <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">Ajans Haberleri</h2>
+              <h2 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">Duyurular</h2>
             </div>
             <a href="#" className="group text-xs font-black uppercase tracking-[0.16em] no-underline">
-              Tüm Haberler <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+Tüm Yazılar <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
             </a>
           </div>
           <ul className="m-0 grid list-none grid-cols-1 gap-6 p-0 md:grid-cols-2 lg:grid-cols-4">
@@ -223,9 +223,9 @@ export default function AgencyPage() {
       {/* CLIENTS ŞERİDİ */}
       <section className="border-y border-zinc-200 bg-white px-4 py-16 dark:border-zinc-800 dark:bg-zinc-950 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-[1600px]">
-          <p className="mb-8 text-center text-xs font-black uppercase tracking-[0.3em] text-zinc-400">Birlikte Çalıştığımız Markalar</p>
+          <p className="mb-8 text-center text-xs font-black uppercase tracking-[0.3em] text-zinc-400">Birlikte Yazdığım Yerler</p>
           <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-            {['VESTEL', 'ARÇELİK', 'PEGASUS', 'ÜLKER', 'TURKCELL', 'GARANTİ', 'FLO', 'BEKO'].map((b) => (
+            {['EDEBİYAT DERGİSİ', 'KİTAP FUARI', 'YAYINEVİ SOHBETLERİ', 'KÜTÜPHANE GÜNLERİ', 'YAZAR DERNEĞİ', 'ATÖLYE'].map((b) => (
               <span key={b} className="text-xl font-black tracking-tight text-zinc-300 transition-colors hover:text-[#ff4d00] sm:text-2xl dark:text-zinc-700 dark:hover:text-[#ff4d00]">
                 {b}
               </span>
@@ -261,10 +261,10 @@ export default function AgencyPage() {
             seninle başlasın
           </h2>
           <a
-            href="mailto:hello@redyapim.com"
+            href="mailto:merhaba@mehmetkarakus.com"
             className="mt-12 inline-block rounded-full border border-white/40 px-10 py-5 text-xs font-black uppercase tracking-[0.16em] no-underline transition-all hover:bg-[#ff4d00] hover:border-[#ff4d00]"
           >
-            hello@redyapim.com
+            merhaba@mehmetkarakus.com
           </a>
         </div>
       </section>
