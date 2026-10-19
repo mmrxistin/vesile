@@ -13,6 +13,20 @@ import { existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
+// Vercel Postgres, DATABASE_URL / POSTGRES_URL verir; şema POSTGRES_PRISMA_URL bekler.
+if (!process.env.POSTGRES_PRISMA_URL) {
+  process.env.POSTGRES_PRISMA_URL =
+    process.env.POSTGRES_URL || process.env.DATABASE_URL || "";
+}
+if (!process.env.POSTGRES_URL_NON_POOLING) {
+  process.env.POSTGRES_URL_NON_POOLING =
+    process.env.POSTGRES_URL_NON_POOLING ||
+    process.env.DATABASE_URL_UNPOOLED ||
+    process.env.POSTGRES_PRISMA_URL ||
+    process.env.DATABASE_URL ||
+    "";
+}
+
 // .env dosyalarını ek bağımlılık olmadan yükle (Vercel'de değişken zaten env'de gelir)
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 for (const file of [".env.local", ".env.production.local", ".env"]) {
