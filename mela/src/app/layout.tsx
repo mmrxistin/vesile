@@ -28,11 +28,11 @@ const geistMono = localFont({
 });
 export const metadata: Metadata = {
   title: {
-    template: "%s | Red Yapım ",
-    default: " Red Yapım",
+    template: "%s | Yazar Mehmet Karakuş",
+    default: "Yazar Mehmet Karakuş",
   },
-  description: "Red Yapım · Productive Agency · İşler · Hizmetler · Kültür ",
-  keywords: ["Red Yapım · Productive Agency · Strateji · Tasarım · Prodüksiyon · Medya"],
+  description: "Yazar Mehmet Karakuş · İşler · Hizmetler · Kültür",
+  keywords: ["Yazar Mehmet Karakuş", "Strateji", "Tasarım", "Prodüksiyon", "Medya"],
 };
 
 export default async function RootLayout({
@@ -84,7 +84,7 @@ export default async function RootLayout({
 function Footer() {
   return (
     <footer className="flex items-center justify-center w-full h-16 bg-gray-800 text-white">
-      <p className="text-sm">© {new Date().getFullYear()} Red Yapım</p>
+      <p className="text-sm">© {new Date().getFullYear()} Yazar Mehmet Karakuş</p>
     </footer>
   );
 

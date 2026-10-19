@@ -32,7 +32,7 @@ export default function AdminFooter() {
           <Send className="h-4 w-4" />
         </a>
       </div>
-      <p>© {new Date().getFullYear()} Red Yapım</p>
+      <p>© {new Date().getFullYear()} Yazar Mehmet Karakuş</p>
       <p>Malper Yönetim Paneli · (main) mimarisi · oturum korumalı</p>
     </footer>
   );

@@ -43,7 +43,7 @@ export default function Navbar() {
       >
         <div className="flex items-center gap-3">
           <Link href="/" className="text-2xl font-bold text-primary">
-            Red Yapım · Yönetim
+            Yazar Mehmet Karakuş · Yönetim
           </Link>
         </div>
 

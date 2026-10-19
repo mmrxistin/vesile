@@ -11,7 +11,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "seed:admin": "node prisma/seed-admin.mjs",
+    "db:setup": "prisma migrate deploy && node prisma/seed-admin.mjs"
+  },
+  "prisma": {
+    "seed": "node prisma/seed-admin.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
